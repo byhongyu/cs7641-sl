@@ -61,8 +61,8 @@ Analysis script can be found in the notebook `cs7641-sl.ipynb`, under the sectio
 
 # Classification Problem 2: Sleep stage classification
 ## Introduction
-Sleep is vital to human health. The quality of sleep can be used as an indicator or precursor of certain diseases, such as Alzheimer [1] and Parkinson’s disease [2].
-According to American Academy of Sleep Medicine (AASM) manual [3],
+Sleep is vital to human health. The quality of sleep can be used as an indicator or precursor of certain diseases, such as Alzheimer and Parkinson’s disease.
+According to American Academy of Sleep Medicine (AASM) manual,
 sleep can be divided into five stages: Wake (W), Non-Rapid Eye Movement stages N1 (for drowsiness or transitional sleep), N2 (for light sleep), and N3 (for deep sleep), and Rapid Eye Movement (REM),
 which can be determined by analyzing polysomnograms (PSG) data of patients during sleep. PSG data is a collection of data collected from various sensors, including electroencephalography (EEG),
 Electromyogram (EMG) and Electrocardiogram (ECG) recordings.
