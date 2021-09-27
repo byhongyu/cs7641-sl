@@ -60,7 +60,15 @@ target: 0 – Not looking for job change, 1 – Looking for a job change
 
 Analysis script can be found in the notebook `cs7641-sl.ipynb`, under the section "Classification Problem 1: HR Analytics"
 
-## Highlight of analysis
+## Analysis
+### Decision Tree
+
+### KNN
+GridSearch validation curves:
+![hr_knn_vc](media/hr_knn_val_curve.png)
+Learning curves:
+![hr_knn_lc](media/hr_knn.png)
+### Compare 5 models
 ![comparison_5_models](media/hr_5_models.png)
 
 # Classification Problem 2: Sleep stage classification
@@ -84,10 +92,11 @@ Connections between time segments are not considered.
 The code for extracting eeg signals from the raw dataset is modified from [1].
 The processed data is included in this repo and can be found here: `repo_root/data/Sleep/processed/eeg_fpz_cz/`
 
-## Analysis script
+## Analysis 
+### Code
 Code for this problem can be found in the `cs7641-sl.ipynb` notebook, under the section "Classification Problem 2: Sleep stage classification"
 
-## Highlight of analysis
+### Preliminary results
 ![ROC_curves](media/sleep_models.png)
 
 # References
