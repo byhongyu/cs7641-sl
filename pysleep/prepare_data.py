@@ -59,9 +59,9 @@ EPOCH_SEC_SIZE = 30
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data_dir", type=str, default=Path(f"data\sleep-edf-database-expanded-1.0.0\sleep-cassette"),
+    parser.add_argument("--data_dir", type=str, default=Path(r"/Users/hoyu/hong/omscs/cs7641/cs7641-sl/data/raw/sleep-edf-database-expanded-1.0.0/sleep-cassette"),
                         help="File path to the CSV or NPY file that contains walking data.")
-    parser.add_argument("--output_dir", type=str, default=Path(r".\data\processed\eeg_fpz_cz"),
+    parser.add_argument("--output_dir", type=str, default=Path(r"/Users/hoyu/hong/omscs/cs7641/cs7641-sl/data/processed/eeg_fpz_cz"),
                         help="Directory where to save outputs.")
     parser.add_argument("--select_ch", type=str, default="EEG Fpz-Cz",
                         help="File path to the trained model used to estimate walking speeds.")

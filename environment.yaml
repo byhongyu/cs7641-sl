@@ -1,0 +1,15 @@
+name: cs7641
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pip
+  - pip:
+    - mne
+    - -e .
