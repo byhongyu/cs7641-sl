@@ -75,11 +75,13 @@ Electromyogram (EMG) and Electrocardiogram (ECG) recordings.
 Raw data if the Sleep-EDF Database Expanded provided at PhysioNet (https://physionet.org/content/sleep-edfx/1.0.0/).
 The sleep-edf database contains 197 whole-night PolySomnoGraphic sleep recordings, containing EEG, EMG and ECG recordings and event markers (manually labeled).
 These signals are collected at 100Hz.
+### Preprocessing
 This is a comprehensive dataset and can be a bit overwhelming. Due to the scope limit of this project, I simplified the dataset (a lot):
 - I limit the exploration to one EEG channel.
 - Each raw data record includes a few hours worth of time series data. The time series data is mannually labeled by trainned physicians or technicians. I devided the dataset into 30-second segments, and treat each segment as a data record.
 Connections between time segments are not considered.
 
+The code for extracting eeg signals from the raw dataset is modified from [1].
 The processed data is included in this repo and can be found here: `repo_root/data/Sleep/processed/eeg_fpz_cz/`
 
 ## Analysis script
@@ -87,3 +89,6 @@ Code for this problem can be found in the `cs7641-sl.ipynb` notebook, under the 
 
 ## Highlight of analysis
 ![ROC_curves](media/sleep_models.png)
+
+# References
+[1] https://github.com/MousaviSajad/SleepEEGNet 
