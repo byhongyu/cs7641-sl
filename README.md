@@ -11,6 +11,7 @@ Note that `PyCharm` IDE provides convenient integration with `venv`, 'conda' and
 
 # Code structure
 High level code organization:
+```
 .
 ├── data
 ├── docs
@@ -20,6 +21,7 @@ High level code organization:
 ├── README.md
 ├── setup.py
 ├── hyu81-analysis.pdf
+```
 
 `data` folder: raw data and processed data.
 `pysleep`: python package developed for this project
@@ -58,6 +60,8 @@ target: 0 – Not looking for job change, 1 – Looking for a job change
 
 Analysis script can be found in the notebook `cs7641-sl.ipynb`, under the section "Classification Problem 1: HR Analytics"
 
+## Highlight of analysis
+![comparison_5_models](media/hr_5_models.png)
 
 # Classification Problem 2: Sleep stage classification
 ## Introduction
@@ -81,3 +85,5 @@ The processed data is included in this repo and can be found here: `repo_root/da
 ## Analysis script
 Code for this problem can be found in the `cs7641-sl.ipynb` notebook, under the section "Classification Problem 2: Sleep stage classification"
 
+## Highlight of analysis
+![ROC_curves](media/sleep_models.png)
