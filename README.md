@@ -95,7 +95,8 @@ The processed data is included in this repo and can be found here: `repo_root/da
 ## Analysis 
 ### Code
 Code for this problem can be found in the `cs7641-sl.ipynb` notebook, under the section "Classification Problem 2: Sleep stage classification"
-
+### Decision Tree
+![sleep DT learning curve](media/sleep_dt_lc.png)
 ### Preliminary results
 ![ROC_curves](media/sleep_models.png)
 
